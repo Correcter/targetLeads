@@ -9,10 +9,10 @@ use Doctrine\Common\Annotations\AnnotationRegistry;
 // the connection configuration
 $dbParams = [
     'driver' => 'pdo_mysql',
-    'host' => 'icontextdev.ru',
-    'user' => 'leads',
-    'password' => 'HuAgqd7623kh83gugg232f',
-    'dbname' => 'leads',
+    'host' => 'host.ru',
+    'user' => 'user_name',
+    'password' => 'password',
+    'dbname' => 'db_name',
     'charset'  => 'utf8',
 ];
 

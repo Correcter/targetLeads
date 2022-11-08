@@ -1,29 +1,29 @@
-#### Библиотека для скачивания и отправки лидов компании ``PIC``
+#### Library for downloading and sending leads of the company `PIC`
 
 ##### TargetLeadsSender.
 
-*Установка и развертывание*
+*Installation and deployment*
 
-- Для **DEV** - среды, в корневой директории проекта сделать вызов: 
+- For **DEV** - environment, make a call in the root directory of the project:
 
 ``` composer install --no-dev```
 
-Для боевой:
+For combat:
 
 ``` composer install ```
 
-- Установщик должен подтянуть все необходимые ``vendor`` - пакеты.
+- The installer must pull up all the necessary `vendor` packages.
 
-#### Команды синхронизации
+#### Sync commands
 
-- Для скачивания недостающих лидов из target-mail следует добавить в крон скрипт:
+- To download the missing leads from target-mail, you should add a script to the crown:
 
 ```/usr/bin/php download.php```
 
-- Для отправки в PIC
+- To send to PIC
 
 ```/usr/bin/php send.php```
 
-- Время интервала загрузки из target-mail - от 30 до 60 минут
+- Loading interval time from target-mail - from 30 to 60 minutes
 
-- Время отправки лидов в PIC - на усмотрение компании
+- The time of sending leads to the PIC is at the discretion of the company
